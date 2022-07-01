@@ -1,0 +1,5 @@
+Create project with Visual Studio.
+Create simple Verlet physics with SFML visualization.
+Create input and enable ball throw with mouse.
+Create constrains and blocks.
+Create lipid membrane.

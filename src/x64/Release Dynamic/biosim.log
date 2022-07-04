@@ -4,11 +4,14 @@
   Скопировано файлов:         1.
   Скопировано файлов:         1.
   Скопировано файлов:         1.
-  C:\Akari\reverse\svn\biosim\biosim\resources\ball.wav
-  C:\Akari\reverse\svn\biosim\biosim\resources\sansation.ttf
+  Подпапка или файл C:\Akari\reverse\svn\biosim\src\x64\Release Dynamic\resources уже существует.
+  C:\Akari\reverse\svn\biosim\src\resources\ball.wav
+  C:\Akari\reverse\svn\biosim\src\resources\sansation.ttf
   Скопировано файлов:         2.
-  main.cpp
+  World.cpp
   Создание кода
-  All 67 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  2 of 101 functions ( 2.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  biosim.vcxproj -> C:\Akari\reverse\svn\biosim\biosim\x64\Release Dynamic\biosim.exe
+  biosim.vcxproj -> C:\Akari\reverse\svn\biosim\src\x64\Release Dynamic\biosim.exe

@@ -3,4 +3,5 @@ Create input and enable ball throw with mouse.
 Create constrains and blocks.
 Create lipid membrane.
 
+2022-07-05 Add basic Verlet physics with SFML visualization (balls, gravity, constraint, collision).
 2022-07-01 Create project with Visual Studio.

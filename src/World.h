@@ -1,13 +1,17 @@
 #ifndef WORLD_H
 #define WORLD_H
 
+#include <SFML/Graphics.hpp>
+
 
 
 struct Atom
 {
-    Vec2 pos_cur;
-    Vec2 pos_old;
-    Vec2 accel;
+    sf::Vector2f pos_cur;
+    sf::Vector2f pos_old;
+    sf::Vector2f accel;
+    float radius;
+    sf::CircleShape ball;
 };
 
 
@@ -19,9 +23,12 @@ public:
     virtual ~World();
 
     void Update();
+    void Draw(sf::RenderWindow& window);
 
 private:
+    sf::Clock m_Clock;
     std::vector< Atom > m_Atoms;
+    sf::CircleShape m_Constrain;
 };
 
 

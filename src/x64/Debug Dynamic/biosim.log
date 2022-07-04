@@ -1,0 +1,13 @@
+﻿  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Подпапка или файл C:\Akari\reverse\svn\biosim\src\x64\Debug Dynamic\resources уже существует.
+  C:\Akari\reverse\svn\biosim\src\resources\ball.wav
+  C:\Akari\reverse\svn\biosim\src\resources\sansation.ttf
+  Скопировано файлов:         2.
+  World.cpp
+c:\akari\reverse\svn\biosim\src\world.cpp(96): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  biosim.vcxproj -> C:\Akari\reverse\svn\biosim\src\x64\Debug Dynamic\biosim.exe

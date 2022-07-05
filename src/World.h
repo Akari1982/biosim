@@ -23,11 +23,13 @@ public:
     virtual ~World();
 
     void Update();
-    void Draw(sf::RenderWindow& window);
+    void Draw( sf::RenderWindow& window );
 
 private:
     sf::Clock m_Clock;
+
     std::vector< Atom > m_Atoms;
+
     sf::CircleShape m_Constrain;
 };
 

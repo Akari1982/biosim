@@ -9,5 +9,5 @@
   C:\Akari\reverse\svn\biosim\src\resources\sansation.ttf
   Скопировано файлов:         2.
   World.cpp
-c:\akari\reverse\svn\biosim\src\world.cpp(96): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\akari\reverse\svn\biosim\src\world.cpp(152): warning C4244: =: преобразование "int" в "float", возможна потеря данных
   biosim.vcxproj -> C:\Akari\reverse\svn\biosim\src\x64\Debug Dynamic\biosim.exe

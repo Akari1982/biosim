@@ -12,6 +12,14 @@ struct Atom
     sf::Vector2f accel;
     float radius;
     sf::CircleShape ball;
+    bool fixed = false;
+};
+
+struct Link
+{
+    int id1;
+    int id2;
+    float dist;
 };
 
 
@@ -29,6 +37,7 @@ private:
     sf::Clock m_Clock;
 
     std::vector< Atom > m_Atoms;
+    std::vector< Link > m_Links;
 
     sf::CircleShape m_Constrain;
 };

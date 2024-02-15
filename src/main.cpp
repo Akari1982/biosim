@@ -26,7 +26,7 @@ int main()
 
         world.Update();
 
-        window.clear( sf::Color( 50, 200, 50 ) );
+        window.clear( sf::Color( 0, 0, 0 ) );
         world.Draw( window );
         window.display();
     }

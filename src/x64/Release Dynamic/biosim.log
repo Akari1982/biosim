@@ -1,18 +1,42 @@
-﻿  Скопировано файлов:         1.
+﻿  Подпапка или файл D:\reverse\projects\biosim\src\x64\Release Dynamic\resources уже существует.
   Скопировано файлов:         1.
   Скопировано файлов:         1.
   Скопировано файлов:         1.
   Скопировано файлов:         1.
   Скопировано файлов:         1.
-  Подпапка или файл C:\Akari\reverse\svn\biosim\src\x64\Release Dynamic\resources уже существует.
-  C:\Akari\reverse\svn\biosim\src\resources\ball.wav
-  C:\Akari\reverse\svn\biosim\src\resources\sansation.ttf
+  Скопировано файлов:         1.
+  D:\reverse\projects\biosim\src\resources\ball.wav
+  D:\reverse\projects\biosim\src\resources\sansation.ttf
   Скопировано файлов:         2.
   World.cpp
-c:\akari\reverse\svn\biosim\src\world.cpp(156): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(69): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(71): warning C4305: +=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(73): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(75): warning C4305: +=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(92): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(101): warning C4305: -=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(102): warning C4305: +=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(104): warning C4305: -=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(105): warning C4305: +=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(106): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(111): warning C4305: аргумент: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(112): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(113): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(114): warning C4305: -=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(115): warning C4305: +=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(116): warning C4305: -=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(117): warning C4305: +=: усечение из "double" в "float"
+d:\reverse\projects\biosim\src\world.cpp(132): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(212): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\reverse\projects\biosim\src\world.cpp(266): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+d:\reverse\projects\biosim\src\world.cpp(307): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
   Создание кода
-  1 of 165 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+  4 of 160 functions ( 2.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  biosim.vcxproj -> C:\Akari\reverse\svn\biosim\src\x64\Release Dynamic\biosim.exe
+  biosim.vcxproj -> D:\reverse\projects\biosim\src\x64\Release Dynamic\biosim.exe

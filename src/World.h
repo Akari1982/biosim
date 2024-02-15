@@ -5,21 +5,26 @@
 
 
 
-struct Atom
+enum AtomType
 {
-    sf::Vector2f pos_cur;
-    sf::Vector2f pos_old;
-    sf::Vector2f accel;
-    float radius;
-    sf::CircleShape ball;
-    bool fixed = false;
+    COMMON,
+    LIPID,
 };
 
-struct Link
+
+struct Atom
 {
-    int id1;
-    int id2;
-    float dist;
+    AtomType type;
+    float radius;
+    float interaction;
+    sf::Vector2f pos;
+    sf::Vector2f velocity;
+    sf::Vector2f force;
+    float dir;
+    float angular_vel;
+    float torque;
+    sf::CircleShape ball;
+    sf::CircleShape sphere;
 };
 
 
@@ -31,15 +36,19 @@ public:
     virtual ~World();
 
     void Update();
-    void Draw( sf::RenderWindow& window );
+    void Draw(sf::RenderWindow& window);
+
+private:
+    void PhysicsUpdate(const float delta);
+    void SpawnUpdate(const float delta);
+    void RemoveUpdate();
+
+    void AddAtom(const AtomType type, const float radius, const float interaction, const sf::Vector2f &pos, const float dir, const sf::Color& color);
 
 private:
     sf::Clock m_Clock;
 
-    std::vector< Atom > m_Atoms;
-    std::vector< Link > m_Links;
-
-    sf::CircleShape m_Constrain;
+    std::vector<Atom> m_Atoms;
 };
 
 

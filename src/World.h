@@ -8,7 +8,12 @@
 enum AtomType
 {
     COMMON,
+    LIGHT,
+    LIPID_TRUE,
+    LIPID_PRE,
+    CELL,
     LIPID,
+    FLAGELLIUM,
 };
 
 
@@ -25,6 +30,8 @@ struct Atom
     float torque;
     sf::CircleShape ball;
     sf::CircleShape sphere;
+
+    bool garbage;
 };
 
 
@@ -43,7 +50,7 @@ private:
     void SpawnUpdate(const float delta);
     void RemoveUpdate();
 
-    void AddAtom(const AtomType type, const float radius, const float interaction, const sf::Vector2f &pos, const float dir, const sf::Color& color);
+    void AddAtom(const AtomType type, const float radius, const float interaction, const sf::Vector2f &pos, const float dir);
 
 private:
     sf::Clock m_Clock;
